@@ -13,19 +13,19 @@ const SESSION_ID_URL: string = `${API_URL}authentication/session/new?api_key=${A
 
 const IMAGE_BASE_URL: string = 'http://image.tmdb.org/t/p/';
 // Sizes: w300, w780, w1280, original
-const BACKDROP_SIZE: string = 'w1280';
+const BACKDROP_SIZE: string = 'original';
 // w92, w154, w185, w342, w500, w780, original
-const POSTER_SIZE: string = 'w780';
+const POSTER_SIZE: string = 'original';
 
 export {
-  SEARCH_BASE_URL,
-  POPULAR_BASE_URL,
   API_URL,
   API_KEY,
-  IMAGE_BASE_URL,
-  BACKDROP_SIZE,
-  POSTER_SIZE,
+  SEARCH_BASE_URL,
+  POPULAR_BASE_URL,
   REQUEST_TOKEN_URL,
   LOGIN_URL,
   SESSION_ID_URL,
+  IMAGE_BASE_URL,
+  BACKDROP_SIZE,
+  POSTER_SIZE,
 };
